@@ -20,7 +20,7 @@ typedef struct elmtVertex *adrVertex;
 typedef struct elmtEdge *adrEdge;
 
 typedef struct elmtVertex{
-    string numVertex;
+    int numVertex;
     adrEdge firstEdge;
     adrVertex nextVertex;
 };
